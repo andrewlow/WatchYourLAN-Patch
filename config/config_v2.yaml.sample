@@ -1,0 +1,4 @@
+# 
+# Configuration file https://github.com/aceberg/WatchYourLAN?tab=readme-ov-file#config-file
+#
+ifaces: eth0

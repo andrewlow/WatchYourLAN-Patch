@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# A script that works like arp-scan, but uses ssh to get it from an openwrt
+#
+
+# Grab configuration variables
+source /config/env
+
+# Call arp-scan on the openwrt router
+ssh -o StrictHostKeyChecking=accept-new -i /config/private.key $USER@$TARGET arp-scan $@
+

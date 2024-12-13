@@ -1,0 +1,4 @@
+config/config_v2.yaml
+config/env
+config/private.key
+config/scan.db
