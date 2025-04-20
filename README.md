@@ -13,3 +13,6 @@ My hack (patch) is to replace the `arp-scan` binary with a shell script. This sc
 Since my OpenWRT router can see all of the VLANs, I can then get data from each of them. This also allows me to run the docker container without the `--network:host`
 option, this may be another reason someone wants to run this patch.
 
+## Build log
+
+- Update to upstream 2.1.2
